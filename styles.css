@@ -1,0 +1,16 @@
+* {
+    background-color: rgb(229, 181, 176);
+}
+
+h1 {
+    font-family: Georgia, Courier, Arial;
+    font-weight: bold;
+}
+
+li {
+    font-size: 22px;
+}
+
+p {
+    font-size: 22px;
+}
