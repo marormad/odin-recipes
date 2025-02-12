@@ -1,16 +1,41 @@
-* {
-    background-color: rgb(229, 181, 176);
+body {
+    background-color: rgb(224, 205, 203);
 }
 
 h1 {
-    font-family: Georgia, Courier, Arial;
+    font-family: Georgia, "Times New Roman", serif;
     font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(105, 28, 28);
+}
+
+li, p {
+    font-size: 22px;    
+}
+
+.recipe-link{
+    border: 5px groove rgb(166, 121, 192);
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    display: block;   
+}
+
+.recipe-link, a {
+    background-color: rgb(163, 255, 127);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 li {
-    font-size: 22px;
-}
-
-p {
-    font-size: 22px;
+    margin-bottom: 10px;
 }
